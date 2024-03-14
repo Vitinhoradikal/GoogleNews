@@ -1,0 +1,197 @@
+body {
+    height: 150vh;
+}
+
+h6 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    margin-left: 1rem;
+    margin-bottom: 0rem;
+}
+
+p {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    margin-left: 2rem;
+    margin-top: 0rem;
+}
+
+hr {
+    border-color: gray;
+    border: 0pix;
+}
+
+img {
+    border-radius: 2rem;
+    margin-left: 40rem;
+    height: 10rem;
+}
+
+.titulo {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 14 px;
+
+}
+
+.texto {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: left;
+}
+
+
+.menu {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1458px;
+    height: 65px;
+    display: grid;
+    align-items: center;
+    justify-content: left;
+    border-radius: 1rem;
+
+    color: darkgreen;
+    font-size: 2rem;
+    background: linear-gradient(to right, whitesmoke, lightgreen);
+
+    margin: 0rem 0rem;
+    margin-top: 0rem;
+
+}
+
+.div {
+
+    color: black;
+}
+
+.lateral {
+    background-color: whitesmoke;
+    width: 250px;
+    height: 625px;
+    display: grid;
+    align-items: top;
+    justify-content: center;
+    border-radius: 1rem;
+    margin-top: 4.5rem;
+    border: solid rgb(236, 226, 245);
+}
+
+.green {
+    background-color: lightgreen;
+    margin: 0rem 16rem;
+    margin-top: 0rem;
+
+
+}
+
+.blue {
+    background-color: rgb(232, 232, 247);
+    margin: 0rem 16rem;
+    margin-top: 4.5rem;
+    position: fixed;
+    z-index: -1;
+    border-radius: 1rem;
+    height: 625px;
+    width: 1200px;
+}
+
+.extra {
+    width: 300px;
+    height: 250px;
+    border: solid black;
+}
+
+.red,
+.green,
+.blue {
+    color: whitesmoke;
+    border: solid;
+}
+
+.fixed {
+    position: fixed;
+    z-index: 1;
+}
+
+.div2 {
+    height: 40px;
+    width: 230px;
+    /*border: green;*/
+    border-radius: 1rem;
+    background-color: whitesmoke;
+    text-align: left;
+    margin-top: 0rem;
+}
+
+.div2:hover {
+    background-color: rgb(236, 226, 245);
+    font-weight: bold;
+}
+
+a:hover {
+    color: #8d3399
+}
+
+a:link {
+    text-decoration: none;
+
+
+}
+
+
+
+.divmlateral {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    margin-left: 1rem;
+}
+
+.divBusca {
+    position: absolute;
+    margin-left: 40rem;
+    background-color: white;
+    border: none;
+    border-radius: 2rem;
+    width: 300px;
+    height: 50px;
+    color: green;
+}
+
+.textBusca {
+    border-radius: 2rem;
+    float: left;
+    background-color: transparent;
+    padding-left: 5px;
+    font-style: italic;
+    font-size: 18px;
+    border: none;
+    height: 32px;
+    width: 290px;
+    margin-top: 0.5rem;
+    color: green;
+}
+
+.btnBusca {
+    border: none;
+    float: left;
+    height: 51px;
+    border-radius: 0px 2rem 2rem 0px;
+    width: 65px;
+    font-weight: bold;
+    background: green;
+    margin-left: 15rem;
+    margin-top: -2.66rem;
+    font-size: 15px;
+    color: #7f9f7d;
+}
+
+.btnBusca:hover {
+    background-color: #5e9559;
+    color: whitesmoke;
+
+}
